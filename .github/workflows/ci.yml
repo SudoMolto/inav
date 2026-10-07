@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: '8.0.1'
 
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get -y install ninja-build gcc-arm-none-eabi

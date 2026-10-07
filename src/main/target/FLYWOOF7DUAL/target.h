@@ -103,13 +103,15 @@
 
 /*** BARO & MAG ***/
 #define USE_BARO
-#define BARO_I2C_BUS             BUS_I2C1
-#define USE_BARO_BMP280
-#define USE_BARO_BMP085
-#define USE_BARO_BMP388
-#define USE_BARO_MS5611
+//#define USE_BARO_BMP280
+//#define USE_BARO_BMP085
+//#define USE_BARO_BMP388
+//#define USE_BARO_MS5611
 #define USE_BARO_DPS310
-#define USE_BARO_SPL06
+//#define USE_BARO_SPL06
+
+#define DPS310_I2C_ADDRESS  0x77  
+// Prova 0x77 se con 0x76 da errori I2C
 
 #define USE_MAG
 #define MAG_I2C_BUS             BUS_I2C1

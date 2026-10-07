@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          repository: 'iNavFlight/inav'
           ref: '8.0.1'
 
       - name: Install dependencies

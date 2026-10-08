@@ -110,7 +110,7 @@
 #define USE_BARO_DPS310
 //#define USE_BARO_SPL06
 
-#define DPS310_I2C_ADDRESS  0x76  
+#define DPS310_I2C_ADDRESS  0x77  
 // Prova 0x77 se con 0x76 da errori I2C
 
 #define USE_MAG
